@@ -1,1 +1,1 @@
-# 3D-Reconstruction from Single Image
+# GAN - For predicting novel views of the input image
