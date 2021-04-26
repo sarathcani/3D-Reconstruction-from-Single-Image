@@ -1,2 +1,6 @@
 env*
 script.py
+data
+*.h5
+*.txt
+__pycache__

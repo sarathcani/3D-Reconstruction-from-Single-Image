@@ -1,15 +1,10 @@
-### RESNET - 50 Keras Implementation
+### RESNET - 50 Tensorflow 2.5 Implementation
 
 import numpy as np 
-import tensorflow as tf
 from tensorflow import keras
 from keras.layers import Input , Add , Dense , Activation , BatchNormalization , Flatten , Conv2D , AveragePooling2D , ZeroPadding2D ,MaxPooling2D
-from keras.models import Model , load_model
-from keras.preprocessing import image
+from keras.models import Model
 from keras.initializers import glorot_uniform
-from keras.utils import layer_utils
-from keras.utils.data_utils import get_file
-from keras.applications.imagenet_utils import preprocess_input
 
 class Resnet50 :
 	def __init__(self , input_shape = (137,137,4) , classes = 4 ) :
@@ -117,7 +112,7 @@ class Resnet50 :
 
 		return X
 
-	def get_model() :
+	def get_model(self) :
 		return self.model
 
 
