@@ -6,10 +6,17 @@
 
 <!-- ABOUT THE PROJECT -->
 ## Aim 🎯
-The aim of the project is to create a 3 dimensional reconstruction (mesh) from a 2 dimensional image
+The aim of the project is to create a 3 dimensional reconstruction (mesh) from a 2 dimensional image.
+<br/>
+<figure>
+  <img src="imgs/out_silhouette.gif" alt="OUTPUT" align="center" height="300px" />
+  <figcaption>Fig.Illustration of how the mesh converge.</figcaption>
+</figure>
+<br/>
 
 ### Built With
 
+<img src="imgs/python-logo.png" alt="python3.6" align="left" height="60px" />
 <img src="imgs/tf.png" alt="Tensorflow 2.0" align="left" height="60px" />
 <img src="imgs/pytorch.jpeg" alt="PyTorch" align="left" height="60px" />
 <img src="imgs/pytorch3d.png" alt="PyTorch3D" align="center" height="60px" />
