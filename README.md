@@ -8,6 +8,12 @@
 ## Aim 🎯
 The aim of the project is to create a 3 dimensional reconstruction (mesh) from a 2 dimensional image.
 <br/>
+
+<figure>
+  <img src="imgs/Differentiable_renderer.jpg" alt="OUTPUT" align="center" height="400px" />
+  <figcaption>Fig.Differentiable renderer.</figcaption>
+</figure>
+
 <figure>
   <img src="imgs/out_silhouette.gif" alt="OUTPUT" align="center" height="300px" />
   <figcaption>Fig.Illustration of how the mesh converge.</figcaption>
